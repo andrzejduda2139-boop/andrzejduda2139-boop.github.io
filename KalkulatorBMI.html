@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<script language="JavaScript">
+function BMI() {
+var skl1=parseFloat(document.forms[0].elements[0].value);
+var skl2=parseFloat(document.forms[0].elements[1].value);
+var wynik = skl1/(skl2*skl2);
+if(wynik<18.5) alert("niedowaga")
+else if 
+{
+(wynik<25) alert("waga prawidłowa")
+}
+else if
+{
+ (wynik<30) alert("nadwaga")
+}
+else alert("otyłość");
+}
+</script>
+<form name="BMI">
+Podaj masę ciała w kilogramach:<input type="Text" name="masa"><br>
+Podaj wzrost w metrach:<input type="Text" name="wzrost"><br>
+<input type="Button" value="Oblicz wskaźnik BMI" onclick="BMI()">
+</form>
+<hr>
+
+<form>
+<br>Wybierz ulubioną brón z CS:GO <br><input type="radio" name="kolory" value="biał"> AWP<br>
+<input type="radio" name="kolory" value="czar"> AK-47<br>
+<input type="radio" name="kolory" value="czer"> Negev<br>
+<input type="radio" name="kolory" value="nieb"> Desert Eagle<br>
+<input type="radio" name="kolory" value="żółt"> M4A4<br>
+<br>Wybierz ulubionego brainrota: 
+<br><select name="brainroty">
+	<option>Triple T</option>
+	<option>Brr Brr Patapim</option>
+	<option>Tralarero tralala</option>
+	<option>Glorbo Frutto Drillo</option>
+</select>
+</form>
+</span>
+</body>
+</html>
